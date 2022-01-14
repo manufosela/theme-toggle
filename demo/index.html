@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="demo.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <li><a href="#uno">One nav element</a></li>
+        <li><a href="#dos">Two nav element</a></li>
+        <li><a href="#tres">Three nav element</a></li>
+        <li id="darklight"></li>
+      </nav>
+    </header>
+    <main>
+      <aside>Hola</aside>
+      <article>adios</article>
+    </main>
+    <footer id="footer"></footer>
+
+    <script type="module">
+      import { html, render } from 'lit';
+      import '../theme-toggle.js';
+
+      render(
+        html` <theme-toggle></theme-toggle> `,
+        document.querySelector('#darklight')
+      );
+
+      function init() {
+        document.getElementById(
+          'footer'
+        ).innerHTML = `&copy; ${new Date().getFullYear()} - @manufosela`;
+      }
+      window.onload = init();
+    </script>
+  </body>
+</html>

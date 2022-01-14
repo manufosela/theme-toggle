@@ -1,0 +1,103 @@
+/**
+ * Copyright 2022 manufosela.
+ * SPDX-License-Identifier: MIT
+ */
+
+:root {
+  --demo-max-width: 1600px;
+  --demo-min-width: 320px;
+}
+body {
+  background: #fafafa;
+}
+header,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--demo-max-width);
+  min-width: var(--demo-min-width);
+  margin: 0 auto;
+  background-color: #ff7900;
+  height: 5rem;
+  padding: 0 2rem;
+}
+main {
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--demo-max-width);
+  min-width: var(--demo-min-width);
+  margin: 0 auto;
+  padding: 0;
+}
+main aside {
+  width: 25%;
+  min-height: 75vh;
+  background: #ccc;
+  padding: 0;
+}
+
+main article {
+  width: 75%;
+  min-height: 75vh;
+  background: #fff;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+}
+nav,
+nav ul {
+  display: flex;
+}
+nav {
+  justify-content: space-between;
+}
+nav ol,
+nav ul {
+  align-items: center;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+nav li > *,
+nav li > input:not([type='checkbox']):not([type='radio']) {
+  margin-bottom: 0;
+}
+nav a {
+  display: block;
+  margin: 0;
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+}
+nav a:hover,
+nav a:active,
+nav a:focus {
+  text-decoration: none;
+  background: #790000;
+}
+li a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: var(--demo-max-width);
+  min-width: var(--demo-min-width);
+  font-weight: bold;
+  color: #fff;
+}
