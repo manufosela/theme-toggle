@@ -1,5 +1,5 @@
 import { html, LitElement } from 'lit';
-import { themeToggleStyles } from './theme-toggle-styles';
+import { themeToggleStyles } from './theme-toggle-styles.js';
 
 export class ThemeToggle extends LitElement {
   static get styles() {
