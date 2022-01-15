@@ -3,7 +3,7 @@
   "description": "Webcomponent theme-toggle following open-wc recommendations",
   "license": "MIT",
   "author": "manufosela",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "theme-toggle.js",
   "module": "theme-toogle.js",
   "type": "module",
@@ -33,13 +33,14 @@
     "@open-wc/eslint-config": "^4.3.0",
     "@open-wc/testing": "next",
     "@web/dev-server": "^0.1.28",
-    "@web/dev-server-storybook": "next",
+    "@web/dev-server-storybook": "^0.0.2",
     "@web/test-runner": "^0.13.22",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.4",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "typescript": "^4.5.4"
   },
   "customElements": "custom-elements.json",
   "eslintConfig": {
