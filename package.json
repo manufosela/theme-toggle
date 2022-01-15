@@ -6,7 +6,6 @@
   "version": "1.0.3",
   "main": "theme-toggle.js",
   "module": "theme-toogle.js",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/manufosela/theme-toggle"
@@ -22,6 +21,7 @@
     "format": "eslint --ext .js,.html . --fix --ignore-path .gitignore && prettier \"**/*.js\" --write --ignore-path .gitignore",
     "test": "web-test-runner --coverage",
     "test:watch": "web-test-runner --watch",
+    "tsc": "tsc --allowJs -d --emitDeclarationOnly src/ThemeToggle.js",
     "storybook": "npm run analyze -- --exclude dist && web-dev-server -c .storybook/server.mjs",
     "storybook:build": "npm run analyze -- --exclude dist && build-storybook"
   },
