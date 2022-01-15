@@ -5,7 +5,7 @@ This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) reco
 ## Installation
 
 ```bash
-npm i theme-toggle
+npm i @manufosela/theme-toggle
 ```
 
 ## Usage
@@ -59,7 +59,6 @@ To build a production version of Storybook, run
 ```bash
 npm run storybook:build
 ```
-
 
 ## Tooling configs
 

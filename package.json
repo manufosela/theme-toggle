@@ -8,11 +8,12 @@
   "module": "theme-toogle.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manufosela/theme-toggle"
+    "url": "https://github.com/manufosela/theme-toggle"
   },
   "keywords": [
     "webcomponent",
-    "lit-element"
+    "lit-element",
+    "lit"
   ],
   "scripts": {
     "analyze": "cem analyze --litelement",
