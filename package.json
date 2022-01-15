@@ -3,10 +3,18 @@
   "description": "Webcomponent theme-toggle following open-wc recommendations",
   "license": "MIT",
   "author": "manufosela",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "theme-toggle.js",
   "module": "theme-toogle.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manufosela/theme-toggle"
+  },
+  "keywords": [
+    "webcomponent",
+    "lit-element",
+  ],
   "scripts": {
     "analyze": "cem analyze --litelement",
     "start": "web-dev-server",
