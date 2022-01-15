@@ -13,7 +13,7 @@
   },
   "keywords": [
     "webcomponent",
-    "lit-element",
+    "lit-element"
   ],
   "scripts": {
     "analyze": "cem analyze --litelement",
