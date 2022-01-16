@@ -2,6 +2,10 @@
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
+[Demo](https://codepen.io/manufosela/pen/rNGPORY)
+
+[Demo video](https://www.loom.com/share/2ef6f927e2294f38b40d9746e31e5403)
+
 ## Installation
 
 ```bash
