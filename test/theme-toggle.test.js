@@ -19,7 +19,9 @@ describe('ThemeToggle', () => {
   });
 
   it('can override the title via attribute', async () => {
-    const el = await fixture(html`<theme-toggle title="attribute title"></theme-toggle>`);
+    const el = await fixture(
+      html`<theme-toggle title="attribute title"></theme-toggle>`
+    );
 
     expect(el.title).to.equal('attribute title');
   });

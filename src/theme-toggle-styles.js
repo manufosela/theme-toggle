@@ -25,21 +25,21 @@ export const themeToggleStyles = css`
     color: hsla(22, 100%, 50%, 1);
     opacity: 1;
   }
-  input[name=theme-toggle] {
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
+  input[name='theme-toggle'] {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
   }
-  .theme-toggle>label {
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: .5;
-      cursor: pointer;
+  .theme-toggle > label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    cursor: pointer;
   }
 `;
