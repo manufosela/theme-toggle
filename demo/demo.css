@@ -20,7 +20,7 @@ footer {
   margin: 0 auto;
   background-color: #ff7900;
   height: 5rem;
-  padding: 0 2rem;
+  padding: 0;
 }
 main {
   background: #fff;
@@ -37,14 +37,14 @@ main aside {
   width: 25%;
   min-height: 75vh;
   background: #ccc;
-  padding: 0;
+  padding: 2rem;
 }
 
 main article {
   width: 75%;
   min-height: 75vh;
   background: #fff;
-  padding: 0;
+  padding: 2rem;
 }
 
 nav {
@@ -100,4 +100,9 @@ footer {
   min-width: var(--demo-min-width);
   font-weight: bold;
   color: #fff;
+}
+
+.resaltado {
+  font-weight: bold;
+  color: red;
 }

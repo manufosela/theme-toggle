@@ -3,7 +3,7 @@
   "description": "Webcomponent theme-toggle following open-wc recommendations",
   "license": "MIT",
   "author": "manufosela",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "theme-toggle.js",
   "module": "theme-toogle.js",
   "repository": {
