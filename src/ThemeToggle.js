@@ -27,6 +27,7 @@ export class ThemeToggle extends LitElement {
     };
     this.invertColorsCSS = `
       body { -webkit-filter: invert(100%); filter: invert(100%); }
+      img, *[style^='background-image:'] {filter: invert(1) hue-rotate(0deg);}
     `;
     document.documentElement.dataset.theme = this.theme;
   }
